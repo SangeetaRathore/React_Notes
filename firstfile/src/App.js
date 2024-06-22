@@ -20,7 +20,11 @@ function App() {
 
 
     {/* call the function */}
-    {says()}
+    {/* {says()} */}
+
+
+    {/* this is not working. the way to call the function */}
+    {/* <says/> */}
     </>
   );
 }

@@ -1,0 +1,134 @@
+Q.1 What is difference between library and framework?
+Ans: Library: A library is a collection of pre-written code that developers can call upon to solve common tasks. The developer is in control and decides when and how to use the library's functions. For example, when you call a method from a library, your code is in charge of the application flow, and the library is used to accomplish specific tasks.
+Framework: A framework, on the other hand, dictates the overall structure and flow of an application. It provides a foundation with predefined behaviors and expects the developer to fill in the specifics. In a framework, the control is inverted: the framework calls your code, and your code fills in the details to fit within the framework's predefined flow.
+
+                                ***
+
+
+Q.2 What is react js?
+Ans: React.js is a popular open-source JavaScript library used for building user interfaces, particularly single-page applications where dynamic content and interactivity are key. Developed and maintained by Facebook, React allows developers to create large web applications that can update and render efficiently in response to data changes.
+
+Key Features of React.js:
+
+1. Component-Based Architecture:
+         React applications are built using components, which are self-contained modules that represent parts of the user interface. Components can be nested, managed, and handled independently, making code more reusable and easier to manage.
+
+2. Virtual DOM:
+
+         React uses a virtual DOM to improve performance. Instead of manipulating the real DOM directly, React creates a virtual DOM in memory, where it performs all the necessary changes. Once the changes are computed, React efficiently updates the real DOM to reflect the new state, minimizing costly DOM operations.
+
+3. JSX (JavaScript XML):
+
+         React uses JSX, a syntax extension that allows HTML-like code to be written within JavaScript. This makes the code more readable and writing UI components easier. JSX gets transpiled to regular JavaScript before being executed.
+
+4. Declarative Syntax:
+
+         React uses a declarative approach to define components and their behaviors. Developers describe what the UI should look like for a given state, and React takes care of updating the view when the state changes.
+
+5. Unidirectional Data Flow:
+
+         React follows a unidirectional data flow, meaning data is passed from parent to child components through props. This makes it easier to understand how data changes in the application and to debug issues.
+
+6. State Management:
+
+         React manages state within components, which can be passed down to child components as props. For more complex state management, React provides the Context API or can be paired with state management libraries like Redux or MobX.
+
+
+
+Benefits of Using React.js:
+
+1. Performance: 
+
+         The virtual DOM and efficient diffing algorithm ensure that only the necessary parts of the DOM are updated, improving performance.
+
+2. Reusable Components: 
+
+         Components can be reused throughout the application, which promotes modularity and code reuse.
+
+3. Flexibility:
+
+         React can be used for both web and mobile applications (using React Native).
+
+4. Strong Community and Ecosystem: 
+         React has a large community and a rich ecosystem of tools, libraries, and extensions that can enhance development.
+
+5. SEO-Friendly: 
+         With server-side rendering (SSR) capabilities, React can be optimized for search engines, improving the SEO of web applications.
+
+
+                                ***
+
+
+Q.3 current version of react js?
+Ans :  v18.3.1
+
+
+                                ***
+
+
+Q.4 Why we need of react js?
+Ans: 
+1. Efficient Updating and Rendering:
+
+         Virtual DOM:Enhances performance by minimizing direct DOM manipulations.
+         Efficient Diffing: Only updates the parts of the DOM that have changed.
+
+2. Component-Based Architecture:
+         Reusability: Components can be reused across different parts of the application.
+         Modularity: Encourages building encapsulated, self-contained UI components.
+
+3. Declarative Syntax with JSX:       
+         JSX Syntax: Allows writing HTML-like code within JavaScript for better readability.
+         Declarative UI: Developers describe the UI state, and React handles the rendering.
+
+4. Unidirectional Data Flow:
+         Predictable State Management: Data flows in a single direction, making it easier to understand and debug.
+         Props and State: Parent components pass data to children through props, maintaining a clear data flow.
+
+5. Strong Ecosystem and Community Support:
+         Rich Libraries: Access to a vast ecosystem of third-party libraries and tools.
+         Active Community: Large community providing tutorials, forums, and resources.
+
+6. Flexibility and Compatibility:
+         Versatility: Suitable for building both small and large-scale applications.
+         React Native: Enables building native mobile apps using the same principles.
+
+7. SEO-Friendly:
+         Server-Side Rendering (SSR): Improves SEO by rendering pages on the server before sending them to the client.
+         Next.js Integration: Enhances SSR capabilities for better SEO performance.
+
+8. Ease of Learning and Use:
+         Simple API: Straightforward API with a small learning curve.
+         Incremental Adoption: Can be introduced gradually into existing projects.
+
+
+                                ***
+
+Q.5 Whose developed react js and which platform used react js?
+Ans:Initially created by Jordan Walke, a software engineer at Facebook.
+First deployed on Facebook's News Feed in 2011 and then it released as an open-source project in May 2013.
+It is used by 
+    Facebook, instagram, netflix, Uber,Airbnb,Pinterest,Codecademy,DropBox etc.
+
+
+                                ***
+
+
+Q.6 Difference between npx and npm?
+Ans: npm: (Node Package Manager) is a tool used for installing and managing packages in JavaScript projects. It allows you to install packages either globally or locally, and manage project dependencies via the package.json file.
+
+npx (Node Package Execute), on the other hand, is a tool that comes with npm and allows you to execute packages without installing them globally. This is particularly useful for running one-off commands, ensuring you're using the latest version of a tool, or avoiding clutter in your global installations. Essentially, while npm is focused on package management and installation, npx is used for executing packages directly.
+
+
+                                ***
+
+Q.7 What is use and Benefits of fragments?
+Ans :Fragments in React allow you to group multiple elements without adding extra nodes to the DOM. They are useful for returning multiple elements from a component's render method without needing a wrapping parent element like <div>. This helps maintain a cleaner DOM structure, improves performance by reducing unnecessary nodes, and enhances code readability by avoiding extraneous wrappers. Fragments also offer a concise syntax (<>...</>) for cleaner JSX, making your components more straightforward and maintainable while ensuring semantic and accessible HTML output.
+
+                                    ***
+
+Q.8 What is JSX?
+Ans:JSX is a JavaScript syntax extension used in React for writing HTML-like code directly within JavaScript. It allows embedding dynamic JavaScript expressions and is crucial for building efficient and declarative user interfaces in React applications, enhancing code readability and performance.
+
+
+
